@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momo&Mozi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #FFA500; /* Laranja Claro */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .small-text {
+      font-size: 14px;
+      color: #333;
+      margin-top: 10px;
+    }
+    /* Estilo para os corações animados */
+    .heart {
+      position: absolute;
+      color: red;
+      font-size: 30px;
+      animation: float 5s ease-in infinite;
+      cursor: pointer;
+    }
+    @keyframes float {
+      0% {
+        transform: translateY(0) scale(1);
+      }
+      50% {
+        transform: translateY(-30px) scale(1.2);
+      }
+      100% {
+        transform: translateY(0) scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Eu sabia que você não resistiria, eu te amo mozi!</h1>
+  <p class="small-text">Você escolheu com sabedoria :)</p>
+
+  <!-- Corações animados espalhados pelo fundo -->
+  <div class="heart" style="top: 5%; left: 5%;">❤️</div>
+  <div class="heart" style="top: 10%; left: 80%;">❤️</div>
+  <div class="heart" style="top: 25%; left: 20%;">❤️</div>
+  <div class="heart" style="top: 40%; left: 70%;">❤️</div>
+  <div class="heart" style="top: 60%; left: 10%;">❤️</div>
+  <div class="heart" style="top: 70%; left: 80%;">❤️</div>
+  <div class="heart" style="top: 80%; left: 30%;">❤️</div>
+  <div class="heart" style="top: 85%; left: 50%;">❤️</div>
+  <div class="heart" style="top: 90%; left: 15%;">❤️</div>
+  <div class="heart" style="top: 20%; left: 50%;">❤️</div>
+</body>
+</html>
